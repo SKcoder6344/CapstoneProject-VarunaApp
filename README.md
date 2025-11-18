@@ -199,7 +199,7 @@ Varuna empowers public health workers and villagers with real-time monitoring to
 ## 👥 Authors
 
 **Krishna (Developer)**
-**Team Member: Dhrub**
+**Team Member: Sujal, Sajal, Harsh, Dhrub, Digambar**
 
 ---
 
