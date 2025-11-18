@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Water background -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Wave patterns -->
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M0,54 Q27,44 54,54 T108,54 L108,108 L0,108 Z" />
+
+    <path
+        android:fillColor="#03A9F4"
+        android:pathData="M0,72 Q27,62 54,72 T108,72 L108,108 L0,108 Z" />
+
+    <!-- Water droplets -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M24,36 Q24,30 30,30 Q36,30 36,36 Q36,42 30,42 Q24,42 24,36 Z" />
+
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M72,28 Q72,22 78,22 Q84,22 84,28 Q84,34 78,34 Q72,34 72,28 Z" />
+</vector>

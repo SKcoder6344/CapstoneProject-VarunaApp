@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Palette -->
+    <color name="colorPrimary">#0077B6</color>        <!-- Ocean Blue -->
+    <color name="colorPrimaryVariant">#023E8A</color> <!-- Deep Blue -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+
+    <!-- Secondary Palette -->
+    <color name="colorSecondary">#00B4D8</color>      <!-- Aqua -->
+    <color name="colorSecondaryVariant">#48CAE4</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#F4F9FC</color>     <!-- Soft Light Blue -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Accent -->
+    <color name="colorAccent">#0096C7</color>
+
+    <!-- Error -->
+    <color name="colorError">#D32F2F</color>
+
+    <!-- Neutral Gray -->
+    <color name="colorDivider">#E0E0E0</color>
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF9800</color>
+
+    <!-- Status Colors -->
+    <color name="status_safe">#4CAF50</color>
+    <color name="status_caution">#FF9800</color>
+    <color name="status_alert">#F44336</color>
+
+    <!-- Background -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Common -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Alert Priority -->
+    <color name="priority_low">#2196F3</color>
+    <color name="priority_medium">#FF9800</color>
+    <color name="priority_high">#FF5722</color>
+    <color name="priority_critical">#D32F2F</color>
+
+</resources>

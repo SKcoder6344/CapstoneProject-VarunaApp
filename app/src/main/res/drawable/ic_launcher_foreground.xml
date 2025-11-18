@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Water Drop Shape -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M60,20C45,35 35,45 35,60c0,13.8 11.2,25 25,25s25,-11.2 25,-25C85,45 75,35 60,20z"/>
+    <!-- Plus Sign (Health) -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M55,45h10v30h-10z"/>
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M45,55h30v10h-30z"/>
+</vector>

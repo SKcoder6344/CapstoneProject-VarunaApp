@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Add Water Test Data"
+        android:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnAddNewTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Water Table"
+        android:layout_marginTop="10dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerWaterTables"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

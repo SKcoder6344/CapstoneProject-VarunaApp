@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <!-- DASHBOARD -->
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.krishna.varunaapp.fragments.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_helpRequestsFragment"
+            app:destination="@id/helpRequestsFragment" />
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_waterQualityFragment"
+            app:destination="@id/waterQualityFragment" />
+    </fragment>
+
+    <!-- ADD THIS -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.krishna.varunaapp.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/helpRequestsFragment"
+        android:name="com.krishna.varunaapp.fragments.HelpRequestsFragment"
+        android:label="Health Reports"
+        tools:layout="@layout/fragment_help_requests" />
+
+    <fragment
+        android:id="@+id/waterQualityFragment"
+        android:name="com.krishna.varunaapp.fragments.WaterQualityFragment"
+        android:label="Water Quality"
+        tools:layout="@layout/fragment_water_quality" />
+
+</navigation>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<navigation xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/nav_graph"-->
+<!--    app:startDestination="@id/dashboardFragment">-->
+
+<!--    &lt;!&ndash; Dashboard &ndash;&gt;-->
+<!--    <fragment-->
+<!--        android:id="@+id/dashboardFragment"-->
+<!--        android:name="com.krishna.varunaapp.fragments.DashboardFragment"-->
+<!--        android:label="Dashboard"-->
+<!--        tools:layout="@layout/fragment_dashboard">-->
+
+<!--        <action-->
+<!--            android:id="@+id/action_dashboardFragment_to_helpRequestsFragment"-->
+<!--            app:destination="@id/helpRequestsFragment" />-->
+
+<!--        <action-->
+<!--            android:id="@+id/action_dashboardFragment_to_waterQualityFragment"-->
+<!--            app:destination="@id/waterQualityFragment" />-->
+<!--    </fragment>-->
+
+<!--    &lt;!&ndash; WATER QUALITY &ndash;&gt;-->
+<!--    <fragment-->
+<!--        android:id="@+id/waterQualityFragment"-->
+<!--        android:name="com.krishna.varunaapp.fragments.WaterQualityFragment"-->
+<!--        android:label="Water Quality"-->
+<!--        tools:layout="@layout/fragment_water_quality" />-->
+
+<!--    &lt;!&ndash; HELP REQUESTS &ndash;&gt;-->
+<!--    <fragment-->
+<!--        android:id="@+id/helpRequestsFragment"-->
+<!--        android:name="com.krishna.varunaapp.fragments.HelpRequestsFragment"-->
+<!--        android:label="Help Requests"-->
+<!--        tools:layout="@layout/fragment_help_requests" />-->
+
+<!--</navigation>-->

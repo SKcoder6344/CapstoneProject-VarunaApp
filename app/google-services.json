@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "489556276649",
+    "project_id": "varunaapp-3a5a0",
+    "storage_bucket": "varunaapp-3a5a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489556276649:android:4b598ef66892e12d7b80b8",
+        "android_client_info": {
+          "package_name": "com.krishna.varunaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzimJbfFBKnCSzMBoTff9q-j5LnaxW9zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
